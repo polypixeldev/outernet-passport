@@ -2,7 +2,11 @@
 export default {
   content: ["./app/**/*.html.erb", "./app/**/*.svelte"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        cantarell: ["Cantarell", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
