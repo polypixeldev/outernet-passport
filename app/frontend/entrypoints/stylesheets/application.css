@@ -3,6 +3,11 @@
   src: url("/fonts/Cantarell.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter.ttf") format("truetype");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
